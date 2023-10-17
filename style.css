@@ -20,7 +20,7 @@
     position: absolute;
     bottom: 0;
     width: 60px;
-    animation: pipe-animations 1.5 infinite linear;
+    animation: pipe-animations 1.5s infinite linear;
 }
 
 .mario{
@@ -41,7 +41,7 @@
 }
 
 .game-over{
-    visibility: hiddeen;
+    visibility: hidden;
     display: flex;
     position:fixed;
     top: 0;
